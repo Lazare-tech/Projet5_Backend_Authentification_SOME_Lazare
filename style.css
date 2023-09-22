@@ -1,0 +1,90 @@
+/* ville a visiter page index  */
+.ouaga_card{
+    background-image: url(images/ousga.jpg);
+}
+.bobo_card{
+    background-image: url(images/sya.jpg);
+}
+.banfora_card{
+    background-image: url(images/banfora.jpg);
+}
+/* hero party page bobo */
+#intro-example{
+    background-image: url(images/Grand-Mosquee-Bobo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* party evenement bobo */
+.image_evenement{
+    border-radius: 50%;
+    width: 100px;
+}
+.evenement_culturel{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.logo_evenement{
+    border-radius: 50%;
+    width: 100px;
+}
+/* hero pge ouaga */
+#hero_ouaga{
+    /* background-image: url(images/Monument_des_martyrs_slider.jpg); */
+    background-image: url(images/visite-monument.jpg);
+
+ height: 100vh;   
+ background-size: cover;
+}
+.bienvenue,.sya,.pot{
+    font-size: 4rem;
+}
+@media (max-width:971px){
+    .car{
+        padding-top: 2rem;
+    }
+}
+.ville{
+    opacity: 1;
+}
+/* home page party section sejour */
+.sejour{
+    font-size: 1.5rem;
+}
+@media (max-width:767px){
+
+.sejournez{
+    font-size: 1.5rem;
+}
+}
+/* media page bobo */
+@media (max-width:341px){
+    .bienvenue{
+        font-size: 2.4rem;
+    }
+    .sya{
+        font-size: 2.8rem;
+    }
+    .evenement_bobo{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width:391px){
+    .pot{
+        font-size: 1.4rem !important;
+    }
+    .diversites{
+        font-size: 1.4rem;
+        
+    }
+    #hero_ouaga{
+    }
+}
+@media (max-width:1127px){
+    #intro-example{
+        height: 50vh;
+    }
+    #hero_ouaga{
+        height: 50vh;
+    }
+}
